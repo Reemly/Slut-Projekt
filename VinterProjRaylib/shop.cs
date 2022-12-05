@@ -10,4 +10,5 @@ public class shop
 
  private string spice {get; set;}
 
+
 }
