@@ -3,7 +3,7 @@ public class Ingredients : shop
 {
     public int value = 15;
 
-
+string[] ingredientsVeg = {"Carrot" };
     private string vegetable = "Carrot";
     private string vegetable1 = "Potato";
     private string vegetable2 = "Parsnip";

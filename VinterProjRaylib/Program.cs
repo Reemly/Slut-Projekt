@@ -1,10 +1,11 @@
 ﻿
-//public int pMoney = new.money();
+public int p = new.money();
 
 
-Console.WriteLine($"you have {money} left");
+Console.WriteLine($"you have {p.money} left");
 
 Console.ReadLine();
+
 
 
 
