@@ -7,7 +7,7 @@ string[] ingredientsVeg = {"Carrot", "Potato", "Parsnip", "Beef", "Chicken", "Po
    
    //Gör en ny klass som bara heter "ingredient" och från den kan det finnas subklasser som Vegetable eller Protein.
    // Men om man gör subklassen Vegetable, vad är den uppbygd av, ett pris och kanske en visst mängd taset points, hänvisa till Jury.
-   
+   // kom kanske ihåg linQ grejen, som man kan använda för att ta ut saker från en array.
    
    
    
