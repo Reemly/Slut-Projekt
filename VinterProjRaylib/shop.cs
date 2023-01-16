@@ -2,15 +2,20 @@
 public class shop
 {
     // ge spelaren 100kr eller något och visa olika ingredienser som har olika priser som spelaren kan välja mellan.
- private int value {get; set;}
 
 
- 
- private string vegetable {get; set;}
+    List<string> chosenIngredients = new List<string>();
 
- private string meat {get; set;}
+    public void EnterShop()
+    {
 
- private string spice {get; set;}
+        Console.WriteLine("random, random, random");
+        Console.ReadLine();
+
+    }
+
+
+
 
 
 }
