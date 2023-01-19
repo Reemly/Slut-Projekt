@@ -6,7 +6,7 @@ public class Jury
     //Det kommer vara så att om man får tillräckligt med Taste poäng så blir happy = true eller nå.
  public bool happy = false;
 
- public int TasteMeter = 0;
+ public int Taste = 0;
 
 
 }

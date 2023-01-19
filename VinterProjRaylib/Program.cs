@@ -1,5 +1,9 @@
 ﻿
 
+System.Console.WriteLine("eheh");
+Console.ReadLine();
+
+
 
 // m
 
