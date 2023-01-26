@@ -11,7 +11,7 @@ public class shop
 
         Console.WriteLine("random, random, random");
         Console.ReadLine();
-
+ 
     }
 
 
