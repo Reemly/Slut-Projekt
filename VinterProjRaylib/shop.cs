@@ -7,7 +7,7 @@ public class shop
     List<string> chosenIngredients = new List<string>();
 
     public void EnterShop()
-    {
+    { 
 
         Console.WriteLine("random, random, random");
         Console.ReadLine();

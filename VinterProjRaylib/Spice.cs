@@ -1,5 +1,5 @@
 
-public class Spice
+public class Spice: Ingredient
 {
     string[] ingredients = {"Basil", "Rosemary", "Paprika" };
     int spiceCost = 10;
