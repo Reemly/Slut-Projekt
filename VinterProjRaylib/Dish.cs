@@ -7,5 +7,7 @@ public class Dish
     public int GetTaste()
     {
         
+        
+        return GetTaste();
     }
 }
