@@ -1,7 +1,6 @@
 
 public class Kitchen
 {
-    public int cookingPot = 0;
     
     
     

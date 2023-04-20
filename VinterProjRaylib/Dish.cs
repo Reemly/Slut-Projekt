@@ -6,8 +6,13 @@ public class Dish
 
     public int GetTaste()
     {
-        
         int totalTaste = 0;
+
+        foreach (Ingredient ingredient in ingredients)
+        {
+            
+        }
+
 
         return totalTaste;
     }
