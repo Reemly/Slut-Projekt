@@ -2,8 +2,14 @@
 public class Spice: Ingredient
 {
     string[] ingredients = {"Basil", "Rosemary", "Paprika" };
-    int spiceCost = 10;
-    int Taste = 2;
+    // int spiceCost = 10;
+    // int Taste = 2;
+
+    public Spice()
+    {
+      Taste = 8;
+      Cost = 10;
+    }
 
 
   // jag tänker att kryddor kanske ger en multiplier till taste mätaren, liksom du har råd med 

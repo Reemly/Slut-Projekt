@@ -1,8 +1,8 @@
 
 public class playerChef
 {
-    
- public int money = 100;
+
+    public int money = 100;
 
 
 

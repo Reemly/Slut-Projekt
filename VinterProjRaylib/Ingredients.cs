@@ -4,7 +4,7 @@ public class Ingredients : shop
     public int value = 15;
  
 string[] ingredientsVeg = {"Carrot", "Potato", "Parsnip", "Beef", "Chicken", "Pork", "Basil", "Rosemary", "Paprika" };
-   
+    
    //Gör en ny klass som bara heter "ingredient" och från den kan det finnas subklasser som Vegetable eller Protein.
    // Men om man gör subklassen Vegetable, vad är den uppbygd av, ett pris och kanske en visst mängd taste points, hänvisa till Jury.
    

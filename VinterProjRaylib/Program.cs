@@ -1,9 +1,23 @@
 ﻿
+playerChef chef = new playerChef();
 
-System.Console.WriteLine("e");
+string place = "shop";
+
+System.Console.WriteLine($"u have ${chef.money} left");
 Console.ReadLine();
 
+Console.WriteLine("Please buy the ingredients that you want to cook with");
+Console.ReadLine();
 
+Dish d = new Dish();
+d.ingredients.Add(new Spice());
+
+string[] choices = {"", "", ""};
+
+foreach (string choice in choices)
+{
+  Console.WriteLine(choice);
+}
 
 
 

@@ -2,7 +2,8 @@
 
 public class Ingredient
 {
-
+    public int Taste { get; set; }
+    public int Cost { get; set; }
 
 
 
