@@ -40,7 +40,7 @@ while (choice != "4")
         {
             choice = "Complete";
         }
-        else if (!choices.Contains(choice1)) // val 1 är den ända som funkar pga av den här, jag vill att alla ska kunna väljas
+        else if (!choices.Contains(choice1)) // fick hjälp av micke med ett problem här, !choices.contains gör så att funktionen bara ger meddelandet om du inte skriver dem sakerna som finns i choice1
         {
             choice = "shop";
             Console.WriteLine("please choose one of the shop choices, the corresponding number");
