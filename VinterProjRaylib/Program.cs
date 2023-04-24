@@ -5,7 +5,7 @@ playerChef chef = new playerChef();
 
 string choice = "shop";
 
-
+string[] choices = {"1","2","3","4"};
 
 Dish d = new Dish();
 d.ingredients.Add(new Spice());
@@ -14,15 +14,13 @@ d.ingredients.Add(new Protein());
 
 while (choice != "4")
 {
-    System.Console.WriteLine($"u have ${chef.money} left");
+    Console.WriteLine($"u have ${chef.money} left");
 
     if (choice == "shop")
     {
 
         Console.WriteLine("Please buy the ingredients that you want to cook with");
-        Console.ReadLine();
-        Console.WriteLine("Shop\n 1* Buy Protein?\n 2* Buy Vegetable?\n 3* Buy Spice?\n 4* Complete dish?");
-        Console.ReadLine();
+        Console.WriteLine("Shop\n 1* Buy Protein?\n 2* Buy Vegetable?\n 3* Buy Spice?\n 4* Complete\n Write here:");
         string choice1 = Console.ReadLine();
         choice1 = choice1.ToLower();
 
@@ -30,24 +28,55 @@ while (choice != "4")
         {
             choice = "Protein";
         }
-        else if (choice1 != "1")
+        if (choice1 == "2")
+        {
+            choice = "Vegetable";
+        }
+        if (choice1 == "3")
+        {
+            choice = "Spice";
+        }
+        if (choice1 == "4")
+        {
+            choice = "Complete";
+        }
+        else if (!choices.Contains(choice1)) // val 1 är den ända som funkar pga av den här, jag vill att alla ska kunna väljas
         {
             choice = "shop";
             Console.WriteLine("please choose one of the shop choices, the corresponding number");
             Console.ReadLine();
 
         }
+  
 
     }
 
     if (choice == "Protein")
     {
-Console.WriteLine("you bought a protein for 50");
-Console.ReadLine();
-choice = "shop";
+        Console.WriteLine("you bought a protein for $50");
+
+        choice = "shop";
     }
+    if (choice == "Vegetable")
+    {
+        Console.WriteLine("you bought a Vegetable for $50");
+
+        choice = "shop";
+    }
+    if (choice == "Spice")
+    {
+        Console.WriteLine("you bought a Spice for $50");
+
+        choice = "shop";
+    }
+    if (choice == "Complete")
+    {
 
 
+        choice = "Dish";
+        // om du väljer *4* ska dem ingredienserna du köpt samlas och sen så ska Taste på din Dish räknas ut
+        //och så får du poäng av Juryn.
+    }
 }
 // string[] choices = {"", "", ""};
 
